@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding:0;
+}
+h1#titulo{
+	text-align: center;
+	color: white;
+	opacity: 1;
+	font-family: 'Roboto', sans-serif;
+}
+a.logo_navegacao{
+	margin-left: 1%;
+}
+img.imagem_navegacao{
+	width: 1.5%;
+}
+header{
+	padding-top: 15%;
+	padding-bottom: 10%;
+	background-image: url("https://images.unsplash.com/photo-1485881787686-9314a2bc8f9b?auto=format&fit=crop&w=774&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+section.primeiro_corpo{
+	background-color: #F2F1EF;
+}
+h2#sub_titulo{
+	text-align: center;
+	color: black;
+	opacity: 1;
+	font-family: 'Roboto', sans-serif;
+}
+
+div p#agente{
+	text-align: center;
+	color: black;
+	margin-left: 20%;
+	margin-right: 20%;
+
+
+}
