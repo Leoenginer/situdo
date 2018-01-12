@@ -19,18 +19,20 @@ header{
 	padding-bottom: 10%;
 	background-image: url("https://images.unsplash.com/photo-1485881787686-9314a2bc8f9b?auto=format&fit=crop&w=774&q=80");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	background-attachment: fixed;
 	
 }
 section.primeiro_corpo{
 	background-color: #F2F1EF;
+	overflow: hidden;
 }
 h2#sub_titulo{
 	text-align: center;
 	color: black;
 	opacity: 1;
 	font-family: 'Roboto', sans-serif;
+	margin-top: 15%;
 }
 
 div p#agente{
@@ -38,6 +40,14 @@ div p#agente{
 	color: black;
 	margin-left: 20%;
 	margin-right: 20%;
+}
 
+h2#sub-titulo2{
+
+}
+
+.cursos-tech{
+	background-color: #F2F1EF;
+	z-index: none;
 
 }
