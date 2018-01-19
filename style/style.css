@@ -1,6 +1,8 @@
 *{
 	margin: 0;
 	padding:0;
+    list-style: none;
+
 }
 h1#titulo{
 	text-align: center;
@@ -30,13 +32,13 @@ header{
 }
 section.primeiro_corpo{
 	background-color: #1ABC9C;
-	overflow: hidden;
+	overflow: ;
 }
 h2.sub_titulo{
 	text-align: center;
 	color: black;
 	font-family: 'Roboto', sans-serif;
-	margin-top: 10%;
+	padding-top: 10%;
 }
 
 div p#agente{
@@ -58,7 +60,8 @@ div p#agente{
     overflow:hidden;
     float:left;
     margin-right:20px;
-    background-color:rgba(26,76,110,0.5)
+    background-color:rgba(26,76,110,0.5);
+}
 }
 .demo-1 p,.demo-1 h2 {
     color:#fff;
@@ -95,4 +98,7 @@ div p#agente{
     right:-330px;
     padding-bottom:200px;
     padding-left:300px
+}
+div.divisoria_curso{
+    display: flex;
 }
